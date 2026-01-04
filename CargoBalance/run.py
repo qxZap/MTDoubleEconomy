@@ -22,15 +22,18 @@ if data:
 
         current_cargo = copy.deepcopy(cargo)
 
-        if iterated<VANILLA_GAP:
-            for i in range(0, len(current_cargo['Value'])):
-                current_line_json = current_cargo['Value'][i]
+        for i in range(0, len(current_cargo['Value'])):
+            current_line_json = current_cargo['Value'][i]
                 
+            if iterated<VANILLA_GAP:
                 if current_line_json.get('Name') == 'PaymentSqrtRatio':
                     current_line_json['Value'] = 0.0
-                
+                    
                 if current_line_json.get('Name') == 'PaymentPer1Km':
                     current_line_json['Value'] = float(current_line_json['Value']) * RATIO
+            
+            if current_line_json.get('Name') == 'bAllowStacking':
+                current_line_json['Value'] = True
     
         replaced_cargos.append(current_cargo)
 
