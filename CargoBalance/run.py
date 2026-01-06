@@ -1,7 +1,8 @@
 import json
 import copy
 
-RATIO = 0.25
+RATIO = 0.5
+# RATIO = 1
 VANILLA_GAP = 84
 
 IN_FILE = 'input.json'
@@ -26,6 +27,7 @@ if data:
             current_line_json = current_cargo['Value'][i]
                 
             if iterated<VANILLA_GAP:
+            # if True:
                 if current_line_json.get('Name') == 'PaymentSqrtRatio':
                     current_line_json['Value'] = 0.0
                     
