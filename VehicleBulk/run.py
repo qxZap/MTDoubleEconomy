@@ -121,7 +121,7 @@ if not os.path.exists(output_dir):
 
 input_dir = 'input'
 for filename in os.listdir(input_dir):
-    if filename.endswith('.json'):
+    if filename.endswith('.json') and 'Vehicles_1' not in filename:
         in_path = os.path.join(input_dir, filename)
         out_path = os.path.join(output_dir, filename)
         
