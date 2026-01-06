@@ -1,0 +1,1793 @@
+{
+  "$type": "UAssetAPI.UAsset, UAssetAPI",
+  "Info": "Serialized with UAssetAPI 1.0.2.0 (8aa90ad)",
+  "NameMap": [
+    "/Game/DataAsset/StringTables/VehicleName",
+    "/Game/DataAsset/StringTables/VehicleName.VehicleName",
+    "107",
+    "303",
+    "BasicHeavyDutyRearTire",
+    "CL_Driver",
+    "Crany",
+    "DefaultBody",
+    "EMTVehiclePartSlot::Body",
+    "EMTVehiclePartSlot::CoolantRadiator",
+    "EMTVehiclePartSlot::Crane0",
+    "EMTVehiclePartSlot::Engine",
+    "EMTVehiclePartSlot::FinalDriveRatio",
+    "EMTVehiclePartSlot::Tire0",
+    "EMTVehiclePartSlot::Tire1",
+    "EMTVehiclePartSlot::Tire2",
+    "EMTVehiclePartSlot::Tire3",
+    "EMTVehiclePartSlot::Transmission",
+    "EMTVehiclePartSlot::Wheel0",
+    "EMTVehiclePartSlot::Wheel1",
+    "EMTVehiclePartSlot::Wheel2",
+    "EMTVehiclePartSlot::Wheel3",
+    "HeavyDuty_350HP",
+    "SmallRadiator",
+    "VehicleName",
+    "Winch_Tow_01",
+    "/Game/Cars/Models/Crany/Crany",
+    "/Game/Cars/Parts/InteriorLight/FrontDomeLight",
+    "/Game/Cars/Parts/Light/BlinkerLight_01",
+    "/Game/Cars/Parts/Light/ReverseLight_01",
+    "/Game/Cars/Parts/Light/TaliLight_01",
+    "/Game/DataAsset/Vehicles/Vehicles_Deprecated",
+    "/Script/CoreUObject",
+    "/Script/Engine",
+    "/Script/MotorTown",
+    "BlinkerLight_01_C",
+    "BlinkerLight_01_GEN_VARIABLE",
+    "BlinkerLight_02_GEN_VARIABLE",
+    "BlueprintGeneratedClass",
+    "Body",
+    "Boom1_GEN_VARIABLE",
+    "Boom2_GEN_VARIABLE",
+    "Boom3_GEN_VARIABLE",
+    "Boom4_GEN_VARIABLE",
+    "CameraComponent",
+    "CameraSpringArm",
+    "Class",
+    "CockpitCamera",
+    "CraneSeat_GEN_VARIABLE",
+    "CraneTop_GEN_VARIABLE",
+    "Crany_C",
+    "Dashboard",
+    "DataTable",
+    "Default__Crany_C",
+    "Default__DataTable",
+    "DefaultSceneRoot_GEN_VARIABLE",
+    "Differential_GEN_VARIABLE",
+    "DriverSeat_GEN_VARIABLE",
+    "DriverSeatInteractable",
+    "DriverSeatInteractionSphere",
+    "Engine",
+    "FrontDomeLight_C",
+    "FrontDomeLightSlot_GEN_VARIABLE",
+    "FrontDomeLightSlot_GEN_VARIABLE_FrontDomeLight_C_CAT",
+    "HeadLight_Left_GEN_VARIABLE",
+    "HeadLight_Right_GEN_VARIABLE",
+    "LeftSideMirror_GEN_VARIABLE",
+    "Mesh",
+    "MHTransmissionComponent",
+    "MHWheelComponent",
+    "MTCrane_GEN_VARIABLE",
+    "MTCraneComponent",
+    "MTDashboard",
+    "MTDifferentialComponent",
+    "MTEngineComponent",
+    "MTInteractable_GEN_VARIABLE",
+    "MTInteractableComponent",
+    "MTMirrorComponent",
+    "MTSeatComponent",
+    "MTSpringArmComponent",
+    "MTVehicleDoorComponent",
+    "MTVehicleHeadLight",
+    "MTVehicleNavModifierComponent",
+    "MTVehiclePartSlotComponent",
+    "MTVehicleRootComponent",
+    "MTVehicleTruck_GEN_VARIABLE",
+    "MTVehicleTruckComponent",
+    "NavModifierComponent",
+    "Outrigger_FL_GEN_VARIABLE",
+    "Outrigger_FL_Piston_GEN_VARIABLE",
+    "Outrigger_FR_GEN_VARIABLE",
+    "Outrigger_FR_Piston_GEN_VARIABLE",
+    "Outrigger_RL_GEN_VARIABLE",
+    "Outrigger_RL_Piston_GEN_VARIABLE",
+    "Outrigger_RR_GEN_VARIABLE",
+    "Outrigger_RR_Piston_GEN_VARIABLE",
+    "Package",
+    "PassengerSeat1_GEN_VARIABLE",
+    "PassengerSeatInteractable",
+    "PassengerSeatInteractionSphere",
+    "ReverseLight_01_C",
+    "ReverseLight_01_GEN_VARIABLE",
+    "ReverseLight_02_GEN_VARIABLE",
+    "RightSideMirror_GEN_VARIABLE",
+    "RoomMirror_GEN_VARIABLE",
+    "SceneComponent",
+    "ScriptStruct",
+    "Sphere_GEN_VARIABLE",
+    "SphereComponent",
+    "StaticMeshComponent",
+    "SteeringWheel",
+    "StringTable",
+    "TaliLight_01_C",
+    "TaliLight_01_GEN_VARIABLE",
+    "TaliLight_02_GEN_VARIABLE",
+    "TrailCamera",
+    "Transmission_GEN_VARIABLE",
+    "VehicleRow",
+    "Vehicles_Deprecated",
+    "Wheel0",
+    "Wheel1",
+    "Wheel2",
+    "Wheel3"
+  ],
+  "CustomSerializationFlags": "None",
+  "UseSeparateBulkDataFiles": true,
+  "IsUnversioned": true,
+  "FileVersionLicenseeUE": 0,
+  "ObjectVersion": "VER_UE4_CORRECT_LICENSEE_FLAG",
+  "ObjectVersionUE5": "ASSETREGISTRY_PACKAGEBUILDDEPENDENCIES",
+  "CustomVersionContainer": [
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{375EC13C-06E4-48FB-B500-84F0262A717E}",
+      "FriendlyName": "FCoreObjectVersion",
+      "Version": 4,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{E4B068ED-F494-42E9-A231-DA0B2E46BB41}",
+      "FriendlyName": "FEditorObjectVersion",
+      "Version": 40,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{CFFC743F-43B0-4480-9391-14DF171D2073}",
+      "FriendlyName": "FFrameworkObjectVersion",
+      "Version": 37,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{7B5AE74C-D270-4C10-A958-57980B212A5A}",
+      "FriendlyName": "FSequencerObjectVersion",
+      "Version": 13,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{29E575DD-E0A3-4627-9D10-D276232CDCEA}",
+      "FriendlyName": "FAnimPhysObjectVersion",
+      "Version": 17,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{601D1886-AC64-4F84-AA16-D3DE0DEAC7D6}",
+      "FriendlyName": "FFortniteMainBranchObjectVersion",
+      "Version": 170,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC}",
+      "FriendlyName": "FNiagaraObjectVersion",
+      "Version": 1,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{717F9EE7-E9B0-493A-88B3-91321B388107}",
+      "FriendlyName": "FAssetRegistryVersion",
+      "Version": 17,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{9C54D522-A826-4FBE-9421-074661B482D0}",
+      "FriendlyName": "FReleaseObjectVersion",
+      "Version": 44,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{E7086368-6B23-4C58-8439-1B7016265E91}",
+      "FriendlyName": "FFortniteReleaseBranchCustomObjectVersion",
+      "Version": 15,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{D89B5E42-24BD-4D46-8412-ACA8DF641779}",
+      "FriendlyName": "FUE5ReleaseStreamObjectVersion",
+      "Version": 51,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{FCF57AFA-5076-4283-B9A9-E658FFA02D32}",
+      "FriendlyName": "FNiagaraCustomVersion",
+      "Version": 90,
+      "IsSerialized": false
+    }
+  ],
+  "SoftObjectPathList": [],
+  "GatherableTextData": null,
+  "Exports": [
+    {
+      "$type": "UAssetAPI.ExportTypes.DataTableExport, UAssetAPI",
+      "Table": {
+        "$type": "UAssetAPI.ExportTypes.UDataTable, UAssetAPI",
+        "Data": [
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "VehicleRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "Crany",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "StringTableEntry",
+                "TableId": "/Game/DataAsset/StringTables/VehicleName.VehicleName",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "SourceFmt": null,
+                "Arguments": null,
+                "ArgumentsData": null,
+                "TransformType": "ToLower",
+                "SourceValue": null,
+                "FormatOptions": null,
+                "TargetCulture": null,
+                "Name": "VehicleName",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "Crany"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MTTextByTexts",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "VehicleName2",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                    "ArrayType": "TextProperty",
+                    "DummyStruct": null,
+                    "Name": "Texts",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": []
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EMTVehicleType",
+                "InnerType": "ByteProperty",
+                "Name": "VehicleType",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "HeavyMachinery"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                "Name": "VehicleClass",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": -3
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EMTTruckClass",
+                "InnerType": "ByteProperty",
+                "Name": "TruckClass",
+                "ArrayIndex": 0,
+                "IsZero": true,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "None"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "VehicleTypeFlags",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 4
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "GameplayTagContainer",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "GameplayTags",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                    "Name": "GameplayTags",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": []
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "GameplayTagQuery",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "GarageGameplayTagQuery",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                    "Name": "TokenStreamVersion",
+                    "ArrayIndex": 0,
+                    "IsZero": true,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": 0
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                    "ArrayType": "StructProperty",
+                    "DummyStruct": null,
+                    "Name": "TagDictionary",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": []
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                    "ArrayType": "ByteProperty",
+                    "DummyStruct": null,
+                    "Name": "QueryTokenStream",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": []
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                    "Name": "UserDescription",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": null
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                    "Name": "AutoDescription",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": null
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                "Name": "bHidden",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": true
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.Int64PropertyData, UAssetAPI",
+                "Name": "DeliveryBasePayment",
+                "ArrayIndex": 0,
+                "IsZero": true,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                "Name": "bShowCargoSpaceAtTheGarage",
+                "ArrayIndex": 0,
+                "IsZero": true,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+                "Value": 0.30000001192092896,
+                "Name": "ExhaustBlackSmokeDensity",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "Cost",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 400000
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                "Name": "bIsTaxiable",
+                "ArrayIndex": 0,
+                "IsZero": true,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                "Name": "bIsLimoable",
+                "ArrayIndex": 0,
+                "IsZero": true,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                "Name": "bIsBusable",
+                "ArrayIndex": 0,
+                "IsZero": true,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                "Name": "bIsRaceCar",
+                "ArrayIndex": 0,
+                "IsZero": true,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                "Name": "bTrailerHauling",
+                "ArrayIndex": 0,
+                "IsZero": true,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                "Name": "bHasFuelPump",
+                "ArrayIndex": 0,
+                "IsZero": true,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.MapPropertyData, UAssetAPI",
+                "Value": [
+                  [
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                      "EnumType": null,
+                      "InnerType": null,
+                      "Name": "LevelRequirementToDrive",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": "CL_Driver"
+                    },
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                      "Name": "LevelRequirementToDrive",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": 50
+                    }
+                  ]
+                ],
+                "KeysToRemove": [],
+                "Name": "LevelRequirementToDrive",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.MapPropertyData, UAssetAPI",
+                "Value": [
+                  [
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                      "EnumType": null,
+                      "InnerType": null,
+                      "Name": "Parts",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": "EMTVehiclePartSlot::Transmission"
+                    },
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                      "Name": "Parts",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": "303"
+                    }
+                  ],
+                  [
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                      "EnumType": null,
+                      "InnerType": null,
+                      "Name": "Parts",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": "EMTVehiclePartSlot::FinalDriveRatio"
+                    },
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                      "Name": "Parts",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": "107"
+                    }
+                  ],
+                  [
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                      "EnumType": null,
+                      "InnerType": null,
+                      "Name": "Parts",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": "EMTVehiclePartSlot::Engine"
+                    },
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                      "Name": "Parts",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": "HeavyDuty_350HP"
+                    }
+                  ],
+                  [
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                      "EnumType": null,
+                      "InnerType": null,
+                      "Name": "Parts",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": "EMTVehiclePartSlot::CoolantRadiator"
+                    },
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                      "Name": "Parts",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": "SmallRadiator_100"
+                    }
+                  ],
+                  [
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                      "EnumType": null,
+                      "InnerType": null,
+                      "Name": "Parts",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": "EMTVehiclePartSlot::Tire0"
+                    },
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                      "Name": "Parts",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": "BasicHeavyDutyRearTire"
+                    }
+                  ],
+                  [
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                      "EnumType": null,
+                      "InnerType": null,
+                      "Name": "Parts",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": "EMTVehiclePartSlot::Tire1"
+                    },
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                      "Name": "Parts",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": "BasicHeavyDutyRearTire"
+                    }
+                  ],
+                  [
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                      "EnumType": null,
+                      "InnerType": null,
+                      "Name": "Parts",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": "EMTVehiclePartSlot::Tire2"
+                    },
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                      "Name": "Parts",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": "BasicHeavyDutyRearTire"
+                    }
+                  ],
+                  [
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                      "EnumType": null,
+                      "InnerType": null,
+                      "Name": "Parts",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": "EMTVehiclePartSlot::Tire3"
+                    },
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                      "Name": "Parts",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": "BasicHeavyDutyRearTire"
+                    }
+                  ],
+                  [
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                      "EnumType": null,
+                      "InnerType": null,
+                      "Name": "Parts",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": "EMTVehiclePartSlot::Wheel0"
+                    },
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                      "Name": "Parts",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": "Crany"
+                    }
+                  ],
+                  [
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                      "EnumType": null,
+                      "InnerType": null,
+                      "Name": "Parts",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": "EMTVehiclePartSlot::Wheel1"
+                    },
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                      "Name": "Parts",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": "Crany"
+                    }
+                  ],
+                  [
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                      "EnumType": null,
+                      "InnerType": null,
+                      "Name": "Parts",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": "EMTVehiclePartSlot::Wheel2"
+                    },
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                      "Name": "Parts",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": "Crany"
+                    }
+                  ],
+                  [
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                      "EnumType": null,
+                      "InnerType": null,
+                      "Name": "Parts",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": "EMTVehiclePartSlot::Wheel3"
+                    },
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                      "Name": "Parts",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": "Crany"
+                    }
+                  ],
+                  [
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                      "EnumType": null,
+                      "InnerType": null,
+                      "Name": "Parts",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": "EMTVehiclePartSlot::Crane0"
+                    },
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                      "Name": "Parts",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": "Winch_Tow_01"
+                    }
+                  ],
+                  [
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                      "EnumType": null,
+                      "InnerType": null,
+                      "Name": "Parts",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": "EMTVehiclePartSlot::Body"
+                    },
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                      "Name": "Parts",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": "DefaultBody"
+                    }
+                  ]
+                ],
+                "KeysToRemove": [],
+                "Name": "Parts",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.MapPropertyData, UAssetAPI",
+                "Value": [],
+                "KeyType": "EnumProperty",
+                "ValueType": "StructProperty",
+                "KeysToRemove": [],
+                "Name": "PartValues",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+                "Value": "+0",
+                "Name": "Comport",
+                "ArrayIndex": 0,
+                "IsZero": true,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.SetPropertyData, UAssetAPI",
+                "ArrayType": "EnumProperty",
+                "DummyStruct": null,
+                "Name": "NotOptionalPartTypes",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": []
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.SetPropertyData, UAssetAPI",
+                "ArrayType": "EnumProperty",
+                "DummyStruct": null,
+                "Name": "OptionalPartTypes",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": []
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.SetPropertyData, UAssetAPI",
+                "ArrayType": "EnumProperty",
+                "DummyStruct": null,
+                "Name": "NotOptionalPartSlots",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": []
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.SetPropertyData, UAssetAPI",
+                "ArrayType": "EnumProperty",
+                "DummyStruct": null,
+                "Name": "NotSupportedPartTypes",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": []
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.MapPropertyData, UAssetAPI",
+                "Value": [],
+                "KeyType": "EnumProperty",
+                "ValueType": "StructProperty",
+                "KeysToRemove": [],
+                "Name": "SlotSupportedPartsQueries",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+                "Value": 1.0,
+                "Name": "BodyDamageThreshold",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+                "Value": 1.0,
+                "Name": "NPCSpawnPrabability",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+                "Value": 1.0,
+                "Name": "DeliveryPaymentMultiplier",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+                "Value": 1.0,
+                "Name": "CompanyAIRunningCostMultiplier",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+                "Value": 1.0,
+                "Name": "CompanyAIConditionUsageMultiplier",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+                "Value": 1.0,
+                "Name": "CompanyAIConditionUsageMultiplierOffroad",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                "Name": "bDisabled",
+                "ArrayIndex": 0,
+                "IsZero": true,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                "Name": "bShowRequirementsNotMet",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": true
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+                "Value": "+0",
+                "Name": "CurbWeight",
+                "ArrayIndex": 0,
+                "IsZero": true,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension"
+              }
+            ]
+          }
+        ]
+      },
+      "Data": [
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+          "Name": "RowStruct",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": -58
+        }
+      ],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "Vehicles_Deprecated",
+      "OuterIndex": 0,
+      "ClassIndex": -10,
+      "SuperIndex": 0,
+      "TemplateIndex": -12,
+      "ObjectFlags": "RF_Public, RF_Standalone, RF_Transactional",
+      "SerialSize": 427,
+      "SerialOffset": 6372,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": true,
+      "bIsAsset": true,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [
+        -58
+      ],
+      "CreateBeforeSerializationDependencies": [
+        -69,
+        -3
+      ],
+      "SerializationBeforeCreateDependencies": [
+        -10,
+        -12
+      ],
+      "CreateBeforeCreateDependencies": [],
+      "Extras": ""
+    }
+  ],
+  "SearchableNames": null,
+  "Thumbnails": null,
+  "WorldTileInfo": null,
+  "AppendedNullBytes": 0,
+  "OtherAssetsFailedToAccess": [],
+  "LegacyFileVersion": -8,
+  "DataResourceVersion": "Invalid",
+  "DataResources": null,
+  "UsesEventDrivenLoader": true,
+  "WillSerializeNameHashes": true,
+  "Imports": [
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "BlinkerLight_01_GEN_VARIABLE",
+      "OuterIndex": -3,
+      "ClassPackage": "/Game/Cars/Parts/Light/BlinkerLight_01",
+      "ClassName": "BlinkerLight_01_C",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "BlinkerLight_02_GEN_VARIABLE",
+      "OuterIndex": -3,
+      "ClassPackage": "/Game/Cars/Parts/Light/BlinkerLight_01",
+      "ClassName": "BlinkerLight_01_C",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Crany_C",
+      "OuterIndex": -47,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "BlueprintGeneratedClass",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "FrontDomeLight_C",
+      "OuterIndex": -48,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "BlueprintGeneratedClass",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "BlinkerLight_01_C",
+      "OuterIndex": -49,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "BlueprintGeneratedClass",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "ReverseLight_01_C",
+      "OuterIndex": -50,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "BlueprintGeneratedClass",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "TaliLight_01_C",
+      "OuterIndex": -51,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "BlueprintGeneratedClass",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "CockpitCamera",
+      "OuterIndex": -11,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "CameraComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "TrailCamera",
+      "OuterIndex": -11,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "CameraComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "DataTable",
+      "OuterIndex": -53,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__Crany_C",
+      "OuterIndex": -47,
+      "ClassPackage": "/Game/Cars/Models/Crany/Crany",
+      "ClassName": "Crany_C",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__DataTable",
+      "OuterIndex": -53,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "DataTable",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "FrontDomeLightSlot_GEN_VARIABLE_FrontDomeLight_C_CAT",
+      "OuterIndex": -44,
+      "ClassPackage": "/Game/Cars/Parts/InteriorLight/FrontDomeLight",
+      "ClassName": "FrontDomeLight_C",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Transmission_GEN_VARIABLE",
+      "OuterIndex": -3,
+      "ClassPackage": "/Script/MotorTown",
+      "ClassName": "MHTransmissionComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Wheel0",
+      "OuterIndex": -11,
+      "ClassPackage": "/Script/MotorTown",
+      "ClassName": "MHWheelComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Wheel1",
+      "OuterIndex": -11,
+      "ClassPackage": "/Script/MotorTown",
+      "ClassName": "MHWheelComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Wheel2",
+      "OuterIndex": -11,
+      "ClassPackage": "/Script/MotorTown",
+      "ClassName": "MHWheelComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Wheel3",
+      "OuterIndex": -11,
+      "ClassPackage": "/Script/MotorTown",
+      "ClassName": "MHWheelComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MTCrane_GEN_VARIABLE",
+      "OuterIndex": -3,
+      "ClassPackage": "/Script/MotorTown",
+      "ClassName": "MTCraneComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Dashboard",
+      "OuterIndex": -11,
+      "ClassPackage": "/Script/MotorTown",
+      "ClassName": "MTDashboard",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Differential_GEN_VARIABLE",
+      "OuterIndex": -3,
+      "ClassPackage": "/Script/MotorTown",
+      "ClassName": "MTDifferentialComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Engine",
+      "OuterIndex": -11,
+      "ClassPackage": "/Script/MotorTown",
+      "ClassName": "MTEngineComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MTInteractable_GEN_VARIABLE",
+      "OuterIndex": -3,
+      "ClassPackage": "/Script/MotorTown",
+      "ClassName": "MTInteractableComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "DriverSeatInteractable",
+      "OuterIndex": -11,
+      "ClassPackage": "/Script/MotorTown",
+      "ClassName": "MTInteractableComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "PassengerSeatInteractable",
+      "OuterIndex": -11,
+      "ClassPackage": "/Script/MotorTown",
+      "ClassName": "MTInteractableComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "LeftSideMirror_GEN_VARIABLE",
+      "OuterIndex": -3,
+      "ClassPackage": "/Script/MotorTown",
+      "ClassName": "MTMirrorComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "RightSideMirror_GEN_VARIABLE",
+      "OuterIndex": -3,
+      "ClassPackage": "/Script/MotorTown",
+      "ClassName": "MTMirrorComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "RoomMirror_GEN_VARIABLE",
+      "OuterIndex": -3,
+      "ClassPackage": "/Script/MotorTown",
+      "ClassName": "MTMirrorComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "CraneSeat_GEN_VARIABLE",
+      "OuterIndex": -3,
+      "ClassPackage": "/Script/MotorTown",
+      "ClassName": "MTSeatComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "DriverSeat_GEN_VARIABLE",
+      "OuterIndex": -3,
+      "ClassPackage": "/Script/MotorTown",
+      "ClassName": "MTSeatComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "PassengerSeat1_GEN_VARIABLE",
+      "OuterIndex": -3,
+      "ClassPackage": "/Script/MotorTown",
+      "ClassName": "MTSeatComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "CameraSpringArm",
+      "OuterIndex": -11,
+      "ClassPackage": "/Script/MotorTown",
+      "ClassName": "MTSpringArmComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Outrigger_FL_GEN_VARIABLE",
+      "OuterIndex": -3,
+      "ClassPackage": "/Script/MotorTown",
+      "ClassName": "MTVehicleDoorComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Outrigger_FL_Piston_GEN_VARIABLE",
+      "OuterIndex": -3,
+      "ClassPackage": "/Script/MotorTown",
+      "ClassName": "MTVehicleDoorComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Outrigger_FR_GEN_VARIABLE",
+      "OuterIndex": -3,
+      "ClassPackage": "/Script/MotorTown",
+      "ClassName": "MTVehicleDoorComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Outrigger_FR_Piston_GEN_VARIABLE",
+      "OuterIndex": -3,
+      "ClassPackage": "/Script/MotorTown",
+      "ClassName": "MTVehicleDoorComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Outrigger_RL_GEN_VARIABLE",
+      "OuterIndex": -3,
+      "ClassPackage": "/Script/MotorTown",
+      "ClassName": "MTVehicleDoorComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Outrigger_RL_Piston_GEN_VARIABLE",
+      "OuterIndex": -3,
+      "ClassPackage": "/Script/MotorTown",
+      "ClassName": "MTVehicleDoorComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Outrigger_RR_GEN_VARIABLE",
+      "OuterIndex": -3,
+      "ClassPackage": "/Script/MotorTown",
+      "ClassName": "MTVehicleDoorComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Outrigger_RR_Piston_GEN_VARIABLE",
+      "OuterIndex": -3,
+      "ClassPackage": "/Script/MotorTown",
+      "ClassName": "MTVehicleDoorComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "HeadLight_Left_GEN_VARIABLE",
+      "OuterIndex": -3,
+      "ClassPackage": "/Script/MotorTown",
+      "ClassName": "MTVehicleHeadLight",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "HeadLight_Right_GEN_VARIABLE",
+      "OuterIndex": -3,
+      "ClassPackage": "/Script/MotorTown",
+      "ClassName": "MTVehicleHeadLight",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "NavModifierComponent",
+      "OuterIndex": -11,
+      "ClassPackage": "/Script/MotorTown",
+      "ClassName": "MTVehicleNavModifierComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "FrontDomeLightSlot_GEN_VARIABLE",
+      "OuterIndex": -3,
+      "ClassPackage": "/Script/MotorTown",
+      "ClassName": "MTVehiclePartSlotComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Body",
+      "OuterIndex": -11,
+      "ClassPackage": "/Script/MotorTown",
+      "ClassName": "MTVehicleRootComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MTVehicleTruck_GEN_VARIABLE",
+      "OuterIndex": -3,
+      "ClassPackage": "/Script/MotorTown",
+      "ClassName": "MTVehicleTruckComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Cars/Models/Crany/Crany",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Cars/Parts/InteriorLight/FrontDomeLight",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Cars/Parts/Light/BlinkerLight_01",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Cars/Parts/Light/ReverseLight_01",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Cars/Parts/Light/TaliLight_01",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/DataAsset/StringTables/VehicleName",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Script/Engine",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Script/MotorTown",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "ReverseLight_01_GEN_VARIABLE",
+      "OuterIndex": -3,
+      "ClassPackage": "/Game/Cars/Parts/Light/ReverseLight_01",
+      "ClassName": "ReverseLight_01_C",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "ReverseLight_02_GEN_VARIABLE",
+      "OuterIndex": -3,
+      "ClassPackage": "/Game/Cars/Parts/Light/ReverseLight_01",
+      "ClassName": "ReverseLight_01_C",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "DefaultSceneRoot_GEN_VARIABLE",
+      "OuterIndex": -3,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "SceneComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "VehicleRow",
+      "OuterIndex": -54,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "ScriptStruct",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Sphere_GEN_VARIABLE",
+      "OuterIndex": -3,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "SphereComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "DriverSeatInteractionSphere",
+      "OuterIndex": -11,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "SphereComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "PassengerSeatInteractionSphere",
+      "OuterIndex": -11,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "SphereComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Boom1_GEN_VARIABLE",
+      "OuterIndex": -3,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "StaticMeshComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Boom2_GEN_VARIABLE",
+      "OuterIndex": -3,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "StaticMeshComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Boom3_GEN_VARIABLE",
+      "OuterIndex": -3,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "StaticMeshComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Boom4_GEN_VARIABLE",
+      "OuterIndex": -3,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "StaticMeshComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "CraneTop_GEN_VARIABLE",
+      "OuterIndex": -3,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "StaticMeshComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Mesh",
+      "OuterIndex": -11,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "StaticMeshComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "SteeringWheel",
+      "OuterIndex": -11,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "StaticMeshComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "VehicleName",
+      "OuterIndex": -52,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "StringTable",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "TaliLight_01_GEN_VARIABLE",
+      "OuterIndex": -3,
+      "ClassPackage": "/Game/Cars/Parts/Light/TaliLight_01",
+      "ClassName": "TaliLight_01_C",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "TaliLight_02_GEN_VARIABLE",
+      "OuterIndex": -3,
+      "ClassPackage": "/Game/Cars/Parts/Light/TaliLight_01",
+      "ClassName": "TaliLight_01_C",
+      "PackageName": null,
+      "bImportOptional": false
+    }
+  ],
+  "DependsMap": [
+    []
+  ],
+  "SoftPackageReferenceList": null,
+  "AssetRegistryData": "AAAAAA==",
+  "BulkData": "wYMqng==",
+  "ValorantGarbageData": null,
+  "SeaOfThievesGarbageData": null,
+  "Generations": [
+    {
+      "$type": "UAssetAPI.FGenerationInfo, UAssetAPI",
+      "ExportCount": 1,
+      "NameCount": 123
+    }
+  ],
+  "PackageGuid": "{7DAE51CD-4C4A-2103-9327-A2854C1ED49E}",
+  "PersistentGuid": "{00000000-0000-0000-0000-000000000000}",
+  "RecordedEngineVersion": {
+    "$type": "UAssetAPI.FEngineVersion, UAssetAPI",
+    "Major": 0,
+    "Minor": 0,
+    "Patch": 0,
+    "Changelist": 0,
+    "Branch": null
+  },
+  "RecordedCompatibleWithEngineVersion": {
+    "$type": "UAssetAPI.FEngineVersion, UAssetAPI",
+    "Major": 0,
+    "Minor": 0,
+    "Patch": 0,
+    "Changelist": 0,
+    "Branch": null
+  },
+  "ChunkIDs": [],
+  "PackageSource": 859780430,
+  "FolderName": "/Game/DataAsset/Vehicles/Vehicles_Deprecated",
+  "LocalizationId": null,
+  "SoftObjectPathsCount": 0,
+  "SoftObjectPathsOffset": 3976,
+  "SearchableNamesOffset": 0,
+  "ThumbnailTableOffset": 0,
+  "SavedHash": null,
+  "CompressionFlags": 0,
+  "AdditionalPackagesToCook": [],
+  "NamesReferencedFromExportDataCount": 26,
+  "PayloadTocOffset": -1,
+  "DataResourceOffset": -1,
+  "doWeHaveAssetRegistryData": true,
+  "doWeHaveWorldTileInfo": false,
+  "PackageFlags": "PKG_Cooked, PKG_UnversionedProperties, PKG_FilterEditorOnly",
+  "HasUnversionedProperties": true,
+  "IsFilterEditorOnly": true
+}
