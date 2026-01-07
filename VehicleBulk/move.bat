@@ -2,7 +2,7 @@
 setlocal enabledelayedexpansion
 
 set OUTPUT_DIR=.\output
-set TARGET_DIR=..\qxZap_CapitalistEconomy_P\MotorTown\Content\DataAsset\Vehicles\
+set TARGET_DIR=..\X_qxZap_CapitalistEconomy_P\MotorTown\Content\DataAsset\Vehicles\
 
 for %%E in (uasset uexp) do (
     for %%F in ("%OUTPUT_DIR%\*.%%E") do (

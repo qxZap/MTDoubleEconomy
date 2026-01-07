@@ -6,10 +6,10 @@ CompanyAIConditionUsageMultiplier = 0.25
 CompanyAIConditionUsageMultiplierOffroad = 0.4
 
 def isVehiclePolice(vehicleJson):
-    return '[Vehicle.Delivery].Police' in json.dumps(vehicleJson)
+    return 'Vehicle.Delivery.Police' in json.dumps(vehicleJson)
 
 def isVehicleHeavy(vehicleJson):
-    return '[Vehicle.Delivery].Heavy' in json.dumps(vehicleJson)
+    return 'Vehicle.Delivery.Heavy' in json.dumps(vehicleJson)
 
 def isVehicleTrailer(vehicleJson):
     pass
@@ -58,42 +58,52 @@ def save_json(data, file_path):
     with open(file_path, 'w') as f:
         json.dump(data, f, indent=4)
 
+def vehicleChangeSetFieldValue(vehicle, fieldName, fieldValue):
+    current_vehicle = copy.deepcopy(vehicle)
+    for i in range(len(current_vehicle.get('Value', []))):
+        current_line_json = current_vehicle['Value'][i]
+        fname = current_line_json.get('Name')
+
+        if fieldName == fname:
+            current_line_json['Value'] = fieldValue
+
+    return current_vehicle
+
+def vehicleGetFieldValue(vehicle, fieldName):
+    for i in range(len(vehicle.get('Value', []))):
+        current_line_json = vehicle['Value'][i]
+        fname = current_line_json.get('Name')
+
+        if fieldName == fname:
+            return current_line_json['Value']
+
+    return None
+
 def process_data(data, filename):
     if data:
         vehicles = data.get('Exports', [{}])[0].get('Table', {}).get('Data', [])
         replaced_vehicles = []
         for vehicle in vehicles:
             current_vehicle = copy.deepcopy(vehicle)
-            for i in range(len(current_vehicle.get('Value', []))):
-                current_line_json = current_vehicle['Value'][i]
-                fieldName = current_line_json.get('Name')
-                # Economy patch
-                if fieldName == "CompanyAIConditionUsageMultiplier":
-                    current_line_json['Value'] = CompanyAIConditionUsageMultiplier
-                if fieldName == "CompanyAIConditionUsageMultiplierOffroad":
-                    current_line_json['Value'] = CompanyAIConditionUsageMultiplierOffroad
 
-                # Disabled / Hidden
-                if fieldName == "bHidden":
-                    current_line_json['Value'] = False
-                if fieldName == "bDisabled":
-                    current_line_json['Value'] = False
+            if not isVehiclePolice(current_vehicle):
+                current_vehicle = vehicleChangeSetFieldValue(current_vehicle, "CompanyAIConditionUsageMultiplier", CompanyAIConditionUsageMultiplier)
+                current_vehicle = vehicleChangeSetFieldValue(current_vehicle, "CompanyAIConditionUsageMultiplierOffroad", CompanyAIConditionUsageMultiplierOffroad)
+                
+                bHidden = vehicleGetFieldValue(current_vehicle, "bHidden")
+                bDisabled = vehicleGetFieldValue(current_vehicle, "bDisabled")
+                if bHidden or bDisabled:
+                    current_vehicle = vehicleChangeSetFieldValue(current_vehicle, "bIsRaceCar", True)
 
-                # Taxi/Limo all besides Police meant
-                if fieldName == "bIsTaxiable":
-                    current_line_json['Value'] = True
-                if fieldName == "bIsLimoable":
-                    current_line_json['Value'] = True
-                if fieldName == "bIsBusable":
-                    current_line_json['Value'] = True
-                if fieldName == "bIsRaceCar":
-                    current_line_json['Value'] = True
+                current_vehicle = vehicleChangeSetFieldValue(current_vehicle, "bHidden", False)
+                current_vehicle = vehicleChangeSetFieldValue(current_vehicle, "bDisabled", False)
 
-                # patch parts
-                if fieldName == "NotSupportedPartTypes":
-                    current_line_json['Value'] = []
-                if fieldName == "NotOptionalPartTypes":
-                    current_line_json['Value'] = []
+                current_vehicle = vehicleChangeSetFieldValue(current_vehicle, "bIsTaxiable", True)
+                current_vehicle = vehicleChangeSetFieldValue(current_vehicle, "bIsLimoable", True)
+                current_vehicle = vehicleChangeSetFieldValue(current_vehicle, "bIsBusable", True)
+
+                current_vehicle = vehicleChangeSetFieldValue(current_vehicle, "NotSupportedPartTypes", [])
+                current_vehicle = vehicleChangeSetFieldValue(current_vehicle, "NotOptionalPartTypes", [])
             
             replaced_vehicles.append(current_vehicle)
         
@@ -121,7 +131,8 @@ if not os.path.exists(output_dir):
 
 input_dir = 'input'
 for filename in os.listdir(input_dir):
-    if filename.endswith('.json') and 'Vehicles_1' not in filename:
+    # if filename.endswith('.json') and 'Vehicles_1' not in filename:
+    if filename.endswith('.json'):
         in_path = os.path.join(input_dir, filename)
         out_path = os.path.join(output_dir, filename)
         
