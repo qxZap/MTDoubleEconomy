@@ -1,6 +1,6 @@
 {
   "$type": "UAssetAPI.UAsset, UAssetAPI",
-  "Info": "Serialized with UAssetAPI 1.0.2.0 (8aa90ad)",
+  "Info": "Serialized with UAssetAPI 1.0.2.0 (d6ca31f)",
   "NameMap": [
     "/Game/DataAsset/StringTables/Vehicle",
     "/Game/DataAsset/StringTables/Vehicle.Vehicle",
@@ -329,6 +329,7 @@
             "ArrayIndex": 0,
             "IsZero": false,
             "PropertyTagFlags": "None",
+            "PropertyTypeName": null,
             "PropertyTagExtensions": "NoExtension",
             "Value": [
               {
@@ -349,6 +350,7 @@
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": "Bongo"
               },
@@ -363,6 +365,7 @@
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": [
                   {
@@ -373,6 +376,7 @@
                     "ArrayIndex": 0,
                     "IsZero": false,
                     "PropertyTagFlags": "None",
+                    "PropertyTypeName": null,
                     "PropertyTagExtensions": "NoExtension",
                     "Value": []
                   }
@@ -386,6 +390,7 @@
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": "Small"
               },
@@ -395,6 +400,7 @@
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": -9
               },
@@ -406,6 +412,7 @@
                 "ArrayIndex": 0,
                 "IsZero": true,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": "None"
               },
@@ -415,6 +422,7 @@
                 "ArrayIndex": 0,
                 "IsZero": true,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": 0
               },
@@ -429,6 +437,7 @@
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": [
                   {
@@ -437,6 +446,7 @@
                     "ArrayIndex": 0,
                     "IsZero": false,
                     "PropertyTagFlags": "None",
+                    "PropertyTypeName": null,
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
                       "Vehicle.Delivery.Cheap"
@@ -455,6 +465,7 @@
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": [
                   {
@@ -463,6 +474,7 @@
                     "ArrayIndex": 0,
                     "IsZero": true,
                     "PropertyTagFlags": "None",
+                    "PropertyTypeName": null,
                     "PropertyTagExtensions": "NoExtension",
                     "Value": 0
                   },
@@ -474,6 +486,7 @@
                     "ArrayIndex": 0,
                     "IsZero": false,
                     "PropertyTagFlags": "None",
+                    "PropertyTypeName": null,
                     "PropertyTagExtensions": "NoExtension",
                     "Value": []
                   },
@@ -485,6 +498,7 @@
                     "ArrayIndex": 0,
                     "IsZero": false,
                     "PropertyTagFlags": "None",
+                    "PropertyTypeName": null,
                     "PropertyTagExtensions": "NoExtension",
                     "Value": []
                   },
@@ -494,6 +508,7 @@
                     "ArrayIndex": 0,
                     "IsZero": false,
                     "PropertyTagFlags": "None",
+                    "PropertyTypeName": null,
                     "PropertyTagExtensions": "NoExtension",
                     "Value": null
                   },
@@ -503,6 +518,7 @@
                     "ArrayIndex": 0,
                     "IsZero": false,
                     "PropertyTagFlags": "None",
+                    "PropertyTypeName": null,
                     "PropertyTagExtensions": "NoExtension",
                     "Value": null
                   }
@@ -514,6 +530,7 @@
                 "ArrayIndex": 0,
                 "IsZero": true,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": false
               },
@@ -523,6 +540,7 @@
                 "ArrayIndex": 0,
                 "IsZero": true,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": 0
               },
@@ -532,17 +550,19 @@
                 "ArrayIndex": 0,
                 "IsZero": true,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": false
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                "Value": 0.30000001192092896,
                 "Name": "ExhaustBlackSmokeDensity",
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension"
+                "PropertyTypeName": null,
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 0.30000001192092896
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -550,6 +570,7 @@
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": 30000
               },
@@ -559,6 +580,7 @@
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": true
               },
@@ -568,6 +590,7 @@
                 "ArrayIndex": 0,
                 "IsZero": true,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": false
               },
@@ -577,6 +600,7 @@
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": true
               },
@@ -586,6 +610,7 @@
                 "ArrayIndex": 0,
                 "IsZero": true,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": false
               },
@@ -595,6 +620,7 @@
                 "ArrayIndex": 0,
                 "IsZero": true,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": false
               },
@@ -604,6 +630,7 @@
                 "ArrayIndex": 0,
                 "IsZero": true,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": false
               },
@@ -619,6 +646,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "CL_Driver"
                     },
@@ -628,6 +656,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": 2
                     }
@@ -638,6 +667,7 @@
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension"
               },
               {
@@ -652,6 +682,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::Transmission"
                     },
@@ -661,6 +692,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "301"
                     }
@@ -674,6 +706,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::FinalDriveRatio"
                     },
@@ -683,6 +716,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "110"
                     }
@@ -696,6 +730,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::Engine"
                     },
@@ -705,6 +740,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "SmallBlock_90HP"
                     }
@@ -718,6 +754,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::CoolantRadiator"
                     },
@@ -727,6 +764,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "SmallRadiator_100"
                     }
@@ -740,6 +778,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::LSD0"
                     },
@@ -749,6 +788,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "LSD_Clutch_1.5_50_30"
                     }
@@ -762,6 +802,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::Tire0"
                     },
@@ -771,6 +812,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "BasicTire_65"
                     }
@@ -784,6 +826,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::Tire1"
                     },
@@ -793,6 +836,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "BasicTire_65"
                     }
@@ -806,6 +850,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::Tire2"
                     },
@@ -815,6 +860,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "BasicTire_65"
                     }
@@ -828,6 +874,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::Tire3"
                     },
@@ -837,6 +884,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "BasicTire_65"
                     }
@@ -850,6 +898,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::Wheel0"
                     },
@@ -859,6 +908,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "Savanah"
                     }
@@ -872,6 +922,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::Wheel1"
                     },
@@ -881,6 +932,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "Savanah"
                     }
@@ -894,6 +946,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::Wheel2"
                     },
@@ -903,6 +956,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "Savanah"
                     }
@@ -916,6 +970,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::Wheel3"
                     },
@@ -925,6 +980,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "Savanah"
                     }
@@ -938,6 +994,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::Body"
                     },
@@ -947,6 +1004,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "DefaultBody"
                     }
@@ -960,6 +1018,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::BrakePad0"
                     },
@@ -969,6 +1028,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "BrakePad_Small_01"
                     }
@@ -982,6 +1042,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::BrakePad1"
                     },
@@ -991,6 +1052,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "BrakePad_Small_01"
                     }
@@ -1004,6 +1066,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::BrakePad2"
                     },
@@ -1013,6 +1076,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "BrakePad_Small_01"
                     }
@@ -1026,6 +1090,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::BrakePad3"
                     },
@@ -1035,6 +1100,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "BrakePad_Small_01"
                     }
@@ -1048,6 +1114,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::FrontBumper"
                     },
@@ -1057,6 +1124,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "Bongo_FrontBumper_01"
                     }
@@ -1070,6 +1138,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::RearBumper"
                     },
@@ -1079,6 +1148,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "Bongo_RearBumper_01"
                     }
@@ -1089,6 +1159,7 @@
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension"
               },
               {
@@ -1101,16 +1172,18 @@
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension"
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                "Value": 2.0,
                 "Name": "Comport",
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension"
+                "PropertyTypeName": null,
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 2.0
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SetPropertyData, UAssetAPI",
@@ -1120,6 +1193,7 @@
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": []
               },
@@ -1131,6 +1205,7 @@
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": []
               },
@@ -1142,6 +1217,7 @@
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": []
               },
@@ -1153,6 +1229,7 @@
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": []
               },
@@ -1168,6 +1245,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::Utility0"
                     },
@@ -1182,6 +1260,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": [
                         {
@@ -1190,6 +1269,7 @@
                           "ArrayIndex": 0,
                           "IsZero": true,
                           "PropertyTagFlags": "None",
+                          "PropertyTypeName": null,
                           "PropertyTagExtensions": "NoExtension",
                           "Value": 0
                         },
@@ -1200,6 +1280,7 @@
                           "ArrayIndex": 0,
                           "IsZero": false,
                           "PropertyTagFlags": "None",
+                          "PropertyTypeName": null,
                           "PropertyTagExtensions": "NoExtension",
                           "Value": [
                             {
@@ -1213,6 +1294,7 @@
                               "ArrayIndex": 0,
                               "IsZero": false,
                               "PropertyTagFlags": "None",
+                              "PropertyTypeName": null,
                               "PropertyTagExtensions": "NoExtension",
                               "Value": [
                                 {
@@ -1221,6 +1303,7 @@
                                   "ArrayIndex": 0,
                                   "IsZero": false,
                                   "PropertyTagFlags": "None",
+                                  "PropertyTypeName": null,
                                   "PropertyTagExtensions": "NoExtension",
                                   "Value": "VehiclePart.VehicleKeySpecific"
                                 }
@@ -1235,6 +1318,7 @@
                           "ArrayIndex": 0,
                           "IsZero": false,
                           "PropertyTagFlags": "None",
+                          "PropertyTypeName": null,
                           "PropertyTagExtensions": "NoExtension",
                           "Value": [
                             {
@@ -1246,6 +1330,7 @@
                               "ArrayIndex": 0,
                               "IsZero": false,
                               "PropertyTagFlags": "None",
+                              "PropertyTypeName": null,
                               "PropertyTagExtensions": "NoExtension"
                             },
                             {
@@ -1257,6 +1342,7 @@
                               "ArrayIndex": 0,
                               "IsZero": false,
                               "PropertyTagFlags": "None",
+                              "PropertyTypeName": null,
                               "PropertyTagExtensions": "NoExtension"
                             },
                             {
@@ -1268,6 +1354,7 @@
                               "ArrayIndex": 0,
                               "IsZero": false,
                               "PropertyTagFlags": "None",
+                              "PropertyTypeName": null,
                               "PropertyTagExtensions": "NoExtension"
                             },
                             {
@@ -1279,6 +1366,7 @@
                               "ArrayIndex": 0,
                               "IsZero": false,
                               "PropertyTagFlags": "None",
+                              "PropertyTypeName": null,
                               "PropertyTagExtensions": "NoExtension"
                             },
                             {
@@ -1290,6 +1378,7 @@
                               "ArrayIndex": 0,
                               "IsZero": false,
                               "PropertyTagFlags": "None",
+                              "PropertyTypeName": null,
                               "PropertyTagExtensions": "NoExtension"
                             }
                           ]
@@ -1300,6 +1389,7 @@
                           "ArrayIndex": 0,
                           "IsZero": false,
                           "PropertyTagFlags": "None",
+                          "PropertyTypeName": null,
                           "PropertyTagExtensions": "NoExtension",
                           "Value": null
                         },
@@ -1309,6 +1399,7 @@
                           "ArrayIndex": 0,
                           "IsZero": false,
                           "PropertyTagFlags": "None",
+                          "PropertyTypeName": null,
                           "PropertyTagExtensions": "NoExtension",
                           "Value": " ALL( VehiclePart.VehicleKeySpecific )"
                         }
@@ -1321,61 +1412,68 @@
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension"
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                "Value": 1.0,
                 "Name": "BodyDamageThreshold",
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension"
+                "PropertyTypeName": null,
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 1.0
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                "Value": 1.0,
                 "Name": "NPCSpawnPrabability",
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension"
+                "PropertyTypeName": null,
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 1.0
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                "Value": 1.0,
                 "Name": "DeliveryPaymentMultiplier",
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension"
+                "PropertyTypeName": null,
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 1.0
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                "Value": 1.0,
                 "Name": "CompanyAIRunningCostMultiplier",
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension"
+                "PropertyTypeName": null,
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 1.0
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                "Value": 1.0,
                 "Name": "CompanyAIConditionUsageMultiplier",
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension"
+                "PropertyTypeName": null,
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 1.0
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                "Value": 1.0,
                 "Name": "CompanyAIConditionUsageMultiplierOffroad",
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension"
+                "PropertyTypeName": null,
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 1.0
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
@@ -1383,6 +1481,7 @@
                 "ArrayIndex": 0,
                 "IsZero": true,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": false
               },
@@ -1392,17 +1491,19 @@
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": true
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                "Value": "+0",
                 "Name": "CurbWeight",
                 "ArrayIndex": 0,
                 "IsZero": true,
                 "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension"
+                "PropertyTypeName": null,
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "+0"
               }
             ]
           },
@@ -1417,6 +1518,7 @@
             "ArrayIndex": 0,
             "IsZero": false,
             "PropertyTagFlags": "None",
+            "PropertyTypeName": null,
             "PropertyTagExtensions": "NoExtension",
             "Value": [
               {
@@ -1437,6 +1539,7 @@
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": "Bongo"
               },
@@ -1451,6 +1554,7 @@
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": [
                   {
@@ -1460,6 +1564,7 @@
                     "ArrayIndex": 0,
                     "IsZero": false,
                     "PropertyTagFlags": "None",
+                    "PropertyTypeName": null,
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
                       {
@@ -1480,6 +1585,7 @@
                         "ArrayIndex": 0,
                         "IsZero": false,
                         "PropertyTagFlags": "None",
+                        "PropertyTypeName": null,
                         "PropertyTagExtensions": "NoExtension",
                         "Value": "Bongo"
                       },
@@ -1501,6 +1607,7 @@
                         "ArrayIndex": 0,
                         "IsZero": false,
                         "PropertyTagFlags": "None",
+                        "PropertyTypeName": null,
                         "PropertyTagExtensions": "NoExtension",
                         "Value": "Bus"
                       }
@@ -1516,6 +1623,7 @@
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": "Small"
               },
@@ -1525,6 +1633,7 @@
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": -10
               },
@@ -1536,6 +1645,7 @@
                 "ArrayIndex": 0,
                 "IsZero": true,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": "None"
               },
@@ -1545,6 +1655,7 @@
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": 16
               },
@@ -1559,6 +1670,7 @@
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": [
                   {
@@ -1567,6 +1679,7 @@
                     "ArrayIndex": 0,
                     "IsZero": false,
                     "PropertyTagFlags": "None",
+                    "PropertyTypeName": null,
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
                       "Vehicle.Delivery.Cheap",
@@ -1586,6 +1699,7 @@
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": [
                   {
@@ -1594,6 +1708,7 @@
                     "ArrayIndex": 0,
                     "IsZero": true,
                     "PropertyTagFlags": "None",
+                    "PropertyTypeName": null,
                     "PropertyTagExtensions": "NoExtension",
                     "Value": 0
                   },
@@ -1605,6 +1720,7 @@
                     "ArrayIndex": 0,
                     "IsZero": false,
                     "PropertyTagFlags": "None",
+                    "PropertyTypeName": null,
                     "PropertyTagExtensions": "NoExtension",
                     "Value": []
                   },
@@ -1616,6 +1732,7 @@
                     "ArrayIndex": 0,
                     "IsZero": false,
                     "PropertyTagFlags": "None",
+                    "PropertyTypeName": null,
                     "PropertyTagExtensions": "NoExtension",
                     "Value": []
                   },
@@ -1625,6 +1742,7 @@
                     "ArrayIndex": 0,
                     "IsZero": false,
                     "PropertyTagFlags": "None",
+                    "PropertyTypeName": null,
                     "PropertyTagExtensions": "NoExtension",
                     "Value": null
                   },
@@ -1634,6 +1752,7 @@
                     "ArrayIndex": 0,
                     "IsZero": false,
                     "PropertyTagFlags": "None",
+                    "PropertyTypeName": null,
                     "PropertyTagExtensions": "NoExtension",
                     "Value": null
                   }
@@ -1645,6 +1764,7 @@
                 "ArrayIndex": 0,
                 "IsZero": true,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": false
               },
@@ -1654,6 +1774,7 @@
                 "ArrayIndex": 0,
                 "IsZero": true,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": 0
               },
@@ -1663,17 +1784,19 @@
                 "ArrayIndex": 0,
                 "IsZero": true,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": false
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                "Value": 0.30000001192092896,
                 "Name": "ExhaustBlackSmokeDensity",
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension"
+                "PropertyTypeName": null,
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 0.30000001192092896
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -1681,6 +1804,7 @@
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": 30000
               },
@@ -1690,6 +1814,7 @@
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": true
               },
@@ -1699,6 +1824,7 @@
                 "ArrayIndex": 0,
                 "IsZero": true,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": false
               },
@@ -1708,6 +1834,7 @@
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": true
               },
@@ -1717,6 +1844,7 @@
                 "ArrayIndex": 0,
                 "IsZero": true,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": false
               },
@@ -1726,6 +1854,7 @@
                 "ArrayIndex": 0,
                 "IsZero": true,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": false
               },
@@ -1735,6 +1864,7 @@
                 "ArrayIndex": 0,
                 "IsZero": true,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": false
               },
@@ -1750,6 +1880,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "CL_Driver"
                     },
@@ -1759,6 +1890,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": 2
                     }
@@ -1769,6 +1901,7 @@
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension"
               },
               {
@@ -1783,6 +1916,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::Transmission"
                     },
@@ -1792,6 +1926,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "301"
                     }
@@ -1805,6 +1940,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::FinalDriveRatio"
                     },
@@ -1814,6 +1950,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "110"
                     }
@@ -1827,6 +1964,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::Engine"
                     },
@@ -1836,6 +1974,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "SmallBlock_90HP"
                     }
@@ -1849,6 +1988,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::CoolantRadiator"
                     },
@@ -1858,6 +1998,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "SmallRadiator_100"
                     }
@@ -1871,6 +2012,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::LSD0"
                     },
@@ -1880,6 +2022,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "LSD_Clutch_1.5_50_30"
                     }
@@ -1893,6 +2036,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::Tire0"
                     },
@@ -1902,6 +2046,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "BasicTire_65"
                     }
@@ -1915,6 +2060,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::Tire1"
                     },
@@ -1924,6 +2070,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "BasicTire_65"
                     }
@@ -1937,6 +2084,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::Tire2"
                     },
@@ -1946,6 +2094,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "BasicTire_65"
                     }
@@ -1959,6 +2108,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::Tire3"
                     },
@@ -1968,6 +2118,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "BasicTire_65"
                     }
@@ -1981,6 +2132,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::Wheel0"
                     },
@@ -1990,6 +2142,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "Savanah"
                     }
@@ -2003,6 +2156,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::Wheel1"
                     },
@@ -2012,6 +2166,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "Savanah"
                     }
@@ -2025,6 +2180,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::Wheel2"
                     },
@@ -2034,6 +2190,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "Savanah"
                     }
@@ -2047,6 +2204,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::Wheel3"
                     },
@@ -2056,6 +2214,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "Savanah"
                     }
@@ -2069,6 +2228,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::Body"
                     },
@@ -2078,6 +2238,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "DefaultBody"
                     }
@@ -2091,6 +2252,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::BrakePad0"
                     },
@@ -2100,6 +2262,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "BrakePad_Small_01"
                     }
@@ -2113,6 +2276,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::BrakePad1"
                     },
@@ -2122,6 +2286,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "BrakePad_Small_01"
                     }
@@ -2135,6 +2300,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::BrakePad2"
                     },
@@ -2144,6 +2310,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "BrakePad_Small_01"
                     }
@@ -2157,6 +2324,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::BrakePad3"
                     },
@@ -2166,6 +2334,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "BrakePad_Small_01"
                     }
@@ -2179,6 +2348,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::FrontBumper"
                     },
@@ -2188,6 +2358,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "Bongo_FrontBumper_01"
                     }
@@ -2201,6 +2372,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::RearBumper"
                     },
@@ -2210,6 +2382,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "Bongo_RearBumper_01"
                     }
@@ -2223,6 +2396,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::BusLicense"
                     },
@@ -2232,6 +2406,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "BusLicense0"
                     }
@@ -2242,6 +2417,7 @@
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension"
               },
               {
@@ -2254,16 +2430,18 @@
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension"
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                "Value": 2.0,
                 "Name": "Comport",
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension"
+                "PropertyTypeName": null,
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 2.0
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SetPropertyData, UAssetAPI",
@@ -2273,6 +2451,7 @@
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": []
               },
@@ -2284,6 +2463,7 @@
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": []
               },
@@ -2295,6 +2475,7 @@
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": []
               },
@@ -2306,6 +2487,7 @@
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": []
               },
@@ -2321,6 +2503,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::Utility0"
                     },
@@ -2335,6 +2518,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": [
                         {
@@ -2343,6 +2527,7 @@
                           "ArrayIndex": 0,
                           "IsZero": true,
                           "PropertyTagFlags": "None",
+                          "PropertyTypeName": null,
                           "PropertyTagExtensions": "NoExtension",
                           "Value": 0
                         },
@@ -2353,6 +2538,7 @@
                           "ArrayIndex": 0,
                           "IsZero": false,
                           "PropertyTagFlags": "None",
+                          "PropertyTypeName": null,
                           "PropertyTagExtensions": "NoExtension",
                           "Value": [
                             {
@@ -2366,6 +2552,7 @@
                               "ArrayIndex": 0,
                               "IsZero": false,
                               "PropertyTagFlags": "None",
+                              "PropertyTypeName": null,
                               "PropertyTagExtensions": "NoExtension",
                               "Value": [
                                 {
@@ -2374,6 +2561,7 @@
                                   "ArrayIndex": 0,
                                   "IsZero": false,
                                   "PropertyTagFlags": "None",
+                                  "PropertyTypeName": null,
                                   "PropertyTagExtensions": "NoExtension",
                                   "Value": "VehiclePart.VehicleKeySpecific"
                                 }
@@ -2388,6 +2576,7 @@
                           "ArrayIndex": 0,
                           "IsZero": false,
                           "PropertyTagFlags": "None",
+                          "PropertyTypeName": null,
                           "PropertyTagExtensions": "NoExtension",
                           "Value": [
                             {
@@ -2399,6 +2588,7 @@
                               "ArrayIndex": 0,
                               "IsZero": false,
                               "PropertyTagFlags": "None",
+                              "PropertyTypeName": null,
                               "PropertyTagExtensions": "NoExtension"
                             },
                             {
@@ -2410,6 +2600,7 @@
                               "ArrayIndex": 0,
                               "IsZero": false,
                               "PropertyTagFlags": "None",
+                              "PropertyTypeName": null,
                               "PropertyTagExtensions": "NoExtension"
                             },
                             {
@@ -2421,6 +2612,7 @@
                               "ArrayIndex": 0,
                               "IsZero": false,
                               "PropertyTagFlags": "None",
+                              "PropertyTypeName": null,
                               "PropertyTagExtensions": "NoExtension"
                             },
                             {
@@ -2432,6 +2624,7 @@
                               "ArrayIndex": 0,
                               "IsZero": false,
                               "PropertyTagFlags": "None",
+                              "PropertyTypeName": null,
                               "PropertyTagExtensions": "NoExtension"
                             },
                             {
@@ -2443,6 +2636,7 @@
                               "ArrayIndex": 0,
                               "IsZero": false,
                               "PropertyTagFlags": "None",
+                              "PropertyTypeName": null,
                               "PropertyTagExtensions": "NoExtension"
                             }
                           ]
@@ -2453,6 +2647,7 @@
                           "ArrayIndex": 0,
                           "IsZero": false,
                           "PropertyTagFlags": "None",
+                          "PropertyTypeName": null,
                           "PropertyTagExtensions": "NoExtension",
                           "Value": null
                         },
@@ -2462,6 +2657,7 @@
                           "ArrayIndex": 0,
                           "IsZero": false,
                           "PropertyTagFlags": "None",
+                          "PropertyTypeName": null,
                           "PropertyTagExtensions": "NoExtension",
                           "Value": " ALL( VehiclePart.VehicleKeySpecific )"
                         }
@@ -2474,61 +2670,68 @@
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension"
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                "Value": 1.0,
                 "Name": "BodyDamageThreshold",
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension"
+                "PropertyTypeName": null,
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 1.0
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                "Value": 1.0,
                 "Name": "NPCSpawnPrabability",
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension"
+                "PropertyTypeName": null,
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 1.0
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                "Value": 1.0,
                 "Name": "DeliveryPaymentMultiplier",
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension"
+                "PropertyTypeName": null,
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 1.0
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                "Value": 1.0,
                 "Name": "CompanyAIRunningCostMultiplier",
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension"
+                "PropertyTypeName": null,
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 1.0
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                "Value": 1.0,
                 "Name": "CompanyAIConditionUsageMultiplier",
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension"
+                "PropertyTypeName": null,
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 1.0
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                "Value": 1.0,
                 "Name": "CompanyAIConditionUsageMultiplierOffroad",
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension"
+                "PropertyTypeName": null,
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 1.0
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
@@ -2536,6 +2739,7 @@
                 "ArrayIndex": 0,
                 "IsZero": true,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": false
               },
@@ -2545,17 +2749,19 @@
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": true
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                "Value": "+0",
                 "Name": "CurbWeight",
                 "ArrayIndex": 0,
                 "IsZero": true,
                 "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension"
+                "PropertyTypeName": null,
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "+0"
               }
             ]
           },
@@ -2570,6 +2776,7 @@
             "ArrayIndex": 0,
             "IsZero": false,
             "PropertyTagFlags": "None",
+            "PropertyTypeName": null,
             "PropertyTagExtensions": "NoExtension",
             "Value": [
               {
@@ -2590,6 +2797,7 @@
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": "Roadmaster"
               },
@@ -2604,6 +2812,7 @@
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": [
                   {
@@ -2614,6 +2823,7 @@
                     "ArrayIndex": 0,
                     "IsZero": false,
                     "PropertyTagFlags": "None",
+                    "PropertyTypeName": null,
                     "PropertyTagExtensions": "NoExtension",
                     "Value": []
                   }
@@ -2627,6 +2837,7 @@
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": "Bus"
               },
@@ -2636,6 +2847,7 @@
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": -11
               },
@@ -2647,6 +2859,7 @@
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": "HeavyDuty"
               },
@@ -2656,6 +2869,7 @@
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": 4
               },
@@ -2670,6 +2884,7 @@
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": [
                   {
@@ -2678,6 +2893,7 @@
                     "ArrayIndex": 0,
                     "IsZero": false,
                     "PropertyTagFlags": "None",
+                    "PropertyTypeName": null,
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
                       "Vehicle.Delivery.Heavy",
@@ -2697,6 +2913,7 @@
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": [
                   {
@@ -2705,6 +2922,7 @@
                     "ArrayIndex": 0,
                     "IsZero": true,
                     "PropertyTagFlags": "None",
+                    "PropertyTypeName": null,
                     "PropertyTagExtensions": "NoExtension",
                     "Value": 0
                   },
@@ -2716,6 +2934,7 @@
                     "ArrayIndex": 0,
                     "IsZero": false,
                     "PropertyTagFlags": "None",
+                    "PropertyTypeName": null,
                     "PropertyTagExtensions": "NoExtension",
                     "Value": []
                   },
@@ -2727,6 +2946,7 @@
                     "ArrayIndex": 0,
                     "IsZero": false,
                     "PropertyTagFlags": "None",
+                    "PropertyTypeName": null,
                     "PropertyTagExtensions": "NoExtension",
                     "Value": []
                   },
@@ -2736,6 +2956,7 @@
                     "ArrayIndex": 0,
                     "IsZero": false,
                     "PropertyTagFlags": "None",
+                    "PropertyTypeName": null,
                     "PropertyTagExtensions": "NoExtension",
                     "Value": null
                   },
@@ -2745,6 +2966,7 @@
                     "ArrayIndex": 0,
                     "IsZero": false,
                     "PropertyTagFlags": "None",
+                    "PropertyTypeName": null,
                     "PropertyTagExtensions": "NoExtension",
                     "Value": null
                   }
@@ -2756,6 +2978,7 @@
                 "ArrayIndex": 0,
                 "IsZero": true,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": false
               },
@@ -2765,6 +2988,7 @@
                 "ArrayIndex": 0,
                 "IsZero": true,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": 0
               },
@@ -2774,17 +2998,19 @@
                 "ArrayIndex": 0,
                 "IsZero": true,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": false
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                "Value": 0.800000011920929,
                 "Name": "ExhaustBlackSmokeDensity",
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension"
+                "PropertyTypeName": null,
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 0.800000011920929
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -2792,6 +3018,7 @@
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": 160000
               },
@@ -2801,6 +3028,7 @@
                 "ArrayIndex": 0,
                 "IsZero": true,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": false
               },
@@ -2810,6 +3038,7 @@
                 "ArrayIndex": 0,
                 "IsZero": true,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": false
               },
@@ -2819,6 +3048,7 @@
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": true
               },
@@ -2828,6 +3058,7 @@
                 "ArrayIndex": 0,
                 "IsZero": true,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": false
               },
@@ -2837,6 +3068,7 @@
                 "ArrayIndex": 0,
                 "IsZero": true,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": false
               },
@@ -2846,6 +3078,7 @@
                 "ArrayIndex": 0,
                 "IsZero": true,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": false
               },
@@ -2861,6 +3094,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "CL_Bus"
                     },
@@ -2870,6 +3104,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": 20
                     }
@@ -2883,6 +3118,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "CL_Driver"
                     },
@@ -2892,6 +3128,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": 30
                     }
@@ -2902,6 +3139,7 @@
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension"
               },
               {
@@ -2916,6 +3154,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::Transmission"
                     },
@@ -2925,6 +3164,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "6SpeedBus"
                     }
@@ -2938,6 +3178,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::FinalDriveRatio"
                     },
@@ -2947,6 +3188,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "102"
                     }
@@ -2960,6 +3202,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::Engine"
                     },
@@ -2969,6 +3212,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "Bus_300HP"
                     }
@@ -2982,6 +3226,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::CoolantRadiator"
                     },
@@ -2991,6 +3236,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "MediumRadiator_100"
                     }
@@ -3004,6 +3250,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::Tire0"
                     },
@@ -3013,6 +3260,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "BasicHeavyDutyFrontTire"
                     }
@@ -3026,6 +3274,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::Tire1"
                     },
@@ -3035,6 +3284,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "BasicHeavyDutyFrontTire"
                     }
@@ -3048,6 +3298,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::Tire2"
                     },
@@ -3057,6 +3308,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "BasicHeavyDutyRearTire"
                     }
@@ -3070,6 +3322,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::Tire3"
                     },
@@ -3079,6 +3332,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "BasicHeavyDutyRearTire"
                     }
@@ -3092,6 +3346,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::Wheel0"
                     },
@@ -3101,6 +3356,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "Roadmaster"
                     }
@@ -3114,6 +3370,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::Wheel1"
                     },
@@ -3123,6 +3380,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "Roadmaster"
                     }
@@ -3136,6 +3394,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::Wheel2"
                     },
@@ -3145,6 +3404,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "Roadmaster"
                     }
@@ -3158,6 +3418,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::Wheel3"
                     },
@@ -3167,6 +3428,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "Roadmaster"
                     }
@@ -3180,6 +3442,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::BusLicense"
                     },
@@ -3189,6 +3452,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "BusLicense0"
                     }
@@ -3202,6 +3466,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::Body"
                     },
@@ -3211,6 +3476,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "DefaultBody"
                     }
@@ -3224,6 +3490,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::BrakePad0"
                     },
@@ -3233,6 +3500,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "BrakePad_Heavy_01"
                     }
@@ -3246,6 +3514,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::BrakePad1"
                     },
@@ -3255,6 +3524,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "BrakePad_Heavy_01"
                     }
@@ -3268,6 +3538,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::BrakePad2"
                     },
@@ -3277,6 +3548,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "BrakePad_Heavy_01"
                     }
@@ -3290,6 +3562,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "EMTVehiclePartSlot::BrakePad3"
                     },
@@ -3299,6 +3572,7 @@
                       "ArrayIndex": 0,
                       "IsZero": false,
                       "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "BrakePad_Heavy_01"
                     }
@@ -3309,6 +3583,7 @@
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension"
               },
               {
@@ -3321,16 +3596,18 @@
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension"
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                "Value": 3.0,
                 "Name": "Comport",
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension"
+                "PropertyTypeName": null,
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 3.0
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SetPropertyData, UAssetAPI",
@@ -3340,6 +3617,7 @@
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": []
               },
@@ -3351,6 +3629,7 @@
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": []
               },
@@ -3362,6 +3641,7 @@
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": []
               },
@@ -3373,6 +3653,7 @@
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": []
               },
@@ -3386,61 +3667,68 @@
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension"
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                "Value": 1.0,
                 "Name": "BodyDamageThreshold",
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension"
+                "PropertyTypeName": null,
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 1.0
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                "Value": 1.0,
                 "Name": "NPCSpawnPrabability",
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension"
+                "PropertyTypeName": null,
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 1.0
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                "Value": 1.0,
                 "Name": "DeliveryPaymentMultiplier",
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension"
+                "PropertyTypeName": null,
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 1.0
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                "Value": 1.0,
                 "Name": "CompanyAIRunningCostMultiplier",
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension"
+                "PropertyTypeName": null,
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 1.0
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                "Value": 1.0,
                 "Name": "CompanyAIConditionUsageMultiplier",
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension"
+                "PropertyTypeName": null,
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 1.0
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                "Value": 1.0,
                 "Name": "CompanyAIConditionUsageMultiplierOffroad",
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension"
+                "PropertyTypeName": null,
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 1.0
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
@@ -3448,6 +3736,7 @@
                 "ArrayIndex": 0,
                 "IsZero": true,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": false
               },
@@ -3457,17 +3746,19 @@
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
                 "PropertyTagExtensions": "NoExtension",
                 "Value": true
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                "Value": "+0",
                 "Name": "CurbWeight",
                 "ArrayIndex": 0,
                 "IsZero": true,
                 "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension"
+                "PropertyTypeName": null,
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "+0"
               }
             ]
           }
@@ -3480,6 +3771,7 @@
           "ArrayIndex": 0,
           "IsZero": false,
           "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
           "PropertyTagExtensions": "NoExtension",
           "Value": -168
         }
@@ -3487,6 +3779,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
+      "HasLeadingFourNullBytes": false,
       "ObjectName": "Vehicles_Bus",
       "OuterIndex": 0,
       "ClassIndex": -26,

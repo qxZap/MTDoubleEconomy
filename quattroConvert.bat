@@ -16,7 +16,7 @@ for %%F in (%DELIVERY_DIR%\*.json) do (
 
     for /L %%A in (1,1,1) do (
         if !SUCCESS! EQU 0 (
-            UAssetGUI.exe fromjson "%%F" "%DELIVERY_DIR%\!BASENAME!.uasset" MotorTown717
+            UAssetGUI.exe fromjson "%%F" "%DELIVERY_DIR%\!BASENAME!.uasset" MotorTown718
 
             if exist "%DELIVERY_DIR%\!BASENAME!.uasset" (
                 set SUCCESS=1

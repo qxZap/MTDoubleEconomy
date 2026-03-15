@@ -8,7 +8,7 @@ for %%F in ("%OUTPUT_DIR%\*.json") do (
     set "BASE_NAME=%%~nF"
     set "UASET_FILE=%OUTPUT_DIR%\!BASE_NAME!.uasset"
     
-    UAssetGUI.exe fromjson "!JSON_FILE!" "!UASET_FILE!" MotorTown717
+    UAssetGUI.exe fromjson "!JSON_FILE!" "!UASET_FILE!" MotorTown718
     
     if exist "!UASET_FILE!" (
         del "!JSON_FILE!"

@@ -41,7 +41,7 @@ for uasset in uassets:
         input_path,
         output_json,
         'VER_UE5_5',
-        'MotorTown717'
+        'MotorTown718'
     ]
 
     subprocess.run(command, check=True)

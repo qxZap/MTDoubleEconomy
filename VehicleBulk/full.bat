@@ -11,7 +11,7 @@ if errorlevel 1 (
 echo Running conversion script...
 call convert.bat
 if errorlevel 1 (
-    echo Failed to run conver.bat
+    echo Failed to run convert.bat
     exit /b 1
 )
 
