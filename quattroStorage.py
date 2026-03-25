@@ -12,9 +12,16 @@ def modifyDeliveryPoint(data):
         if 'MissionPointType' in json.dumps(export_data):
             for line_index in range(0, len(export_data)):
                 line_name = export_data[line_index]['Name']
+                
                 if line_name == 'MaxStorage':
                     data['Exports'][export_index]['Data'][line_index]['Value'] = data['Exports'][export_index]['Data'][line_index]['Value']*BOOST
-                    break
+                
+                if line_name == 'StorageConfigs':
+                    for storage_config in data['Exports'][export_index]['Data'][line_index]['Value']:
+                        for line in storage_config["Value"]:
+                            if line["Name"] == 'MaxStorage':
+                                line["Value"] = line["Value"] * BOOST
+            # TODO: fix MaxStorage from StorageConfig
     return data
 
 # Paths
