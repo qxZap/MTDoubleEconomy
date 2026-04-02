@@ -44,6 +44,7 @@
     "EMTVehiclePartSlot::FrontBumper",
     "EMTVehiclePartSlot::LSD0",
     "EMTVehiclePartSlot::LSD1",
+    "EMTVehiclePartSlot::RearBumper",
     "EMTVehiclePartSlot::Tire0",
     "EMTVehiclePartSlot::Tire1",
     "EMTVehiclePartSlot::Tire10",
@@ -94,6 +95,7 @@
     "Goliath10",
     "Goliath4",
     "Goliath6",
+    "Goliath_RearBumper_01",
     "HD_Forklift_3Speed",
     "HeavyDuty_260HP",
     "HeavyMachine_350HP",
@@ -109,6 +111,7 @@
     "Truck_190HP",
     "Turbocharger_HeavyMachine_Stock",
     "Vehicle.Delivery.Heavy",
+    "Vehicle.Key.Goliath",
     "Vehicle.MineTruck",
     "Vehicle.ModularTrailer",
     "VehicleName",
@@ -3949,7 +3952,8 @@
                     "PropertyTypeName": null,
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
-                      "Vehicle.ModularTrailer"
+                      "Vehicle.ModularTrailer",
+                      "Vehicle.Key.Goliath"
                     ]
                   }
                 ]
@@ -4772,6 +4776,30 @@
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "BrakePad_Heavy_01"
                     }
+                  ],
+                  [
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                      "EnumType": null,
+                      "InnerType": null,
+                      "Name": "Parts",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": "EMTVehiclePartSlot::RearBumper"
+                    },
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                      "Name": "Parts",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": "Goliath_RearBumper_01"
+                    }
                   ]
                 ],
                 "KeysToRemove": [],
@@ -5088,7 +5116,8 @@
                     "PropertyTypeName": null,
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
-                      "Vehicle.ModularTrailer"
+                      "Vehicle.ModularTrailer",
+                      "Vehicle.Key.Goliath"
                     ]
                   }
                 ]
@@ -6199,6 +6228,30 @@
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "BrakePad_Heavy_01"
                     }
+                  ],
+                  [
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                      "EnumType": null,
+                      "InnerType": null,
+                      "Name": "Parts",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": "EMTVehiclePartSlot::RearBumper"
+                    },
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                      "Name": "Parts",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": "Goliath_RearBumper_01"
+                    }
                   ]
                 ],
                 "KeysToRemove": [],
@@ -6515,7 +6568,8 @@
                     "PropertyTypeName": null,
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
-                      "Vehicle.ModularTrailer"
+                      "Vehicle.ModularTrailer",
+                      "Vehicle.Key.Goliath"
                     ]
                   }
                 ]
@@ -8202,6 +8256,30 @@
                       "PropertyTagExtensions": "NoExtension",
                       "Value": "BrakePad_Heavy_01"
                     }
+                  ],
+                  [
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                      "EnumType": null,
+                      "InnerType": null,
+                      "Name": "Parts",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": "EMTVehiclePartSlot::RearBumper"
+                    },
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                      "Name": "Parts",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTypeName": null,
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": "Goliath_RearBumper_01"
+                    }
                   ]
                 ],
                 "KeysToRemove": [],
@@ -8412,8 +8490,8 @@
       "SuperIndex": 0,
       "TemplateIndex": -43,
       "ObjectFlags": "RF_Public, RF_Standalone, RF_Transactional",
-      "SerialSize": 4294,
-      "SerialOffset": 18413,
+      "SerialSize": 4366,
+      "SerialOffset": 18574,
       "ScriptSerializationStartOffset": 0,
       "ScriptSerializationEndOffset": 0,
       "bForcedExport": false,
@@ -8430,7 +8508,7 @@
       ],
       "CreateBeforeSerializationDependencies": [
         -24,
-        -280,
+        -282,
         -23,
         -19,
         -21,
@@ -8793,7 +8871,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "CockpitCamera",
-      "OuterIndex": -293,
+      "OuterIndex": -295,
       "ClassPackage": "/Script/Engine",
       "ClassName": "CameraComponent",
       "PackageName": null,
@@ -8802,7 +8880,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "TrailCamera",
-      "OuterIndex": -293,
+      "OuterIndex": -295,
       "ClassPackage": "/Script/Engine",
       "ClassName": "CameraComponent",
       "PackageName": null,
@@ -8811,7 +8889,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "CockpitCamera",
-      "OuterIndex": -294,
+      "OuterIndex": -296,
       "ClassPackage": "/Script/Engine",
       "ClassName": "CameraComponent",
       "PackageName": null,
@@ -8820,7 +8898,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "TrailCamera",
-      "OuterIndex": -294,
+      "OuterIndex": -296,
       "ClassPackage": "/Script/Engine",
       "ClassName": "CameraComponent",
       "PackageName": null,
@@ -9324,7 +9402,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "Wheel0",
-      "OuterIndex": -293,
+      "OuterIndex": -295,
       "ClassPackage": "/Script/MotorTown",
       "ClassName": "MHWheelComponent",
       "PackageName": null,
@@ -9333,7 +9411,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "Wheel1",
-      "OuterIndex": -293,
+      "OuterIndex": -295,
       "ClassPackage": "/Script/MotorTown",
       "ClassName": "MHWheelComponent",
       "PackageName": null,
@@ -9342,7 +9420,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "Wheel2",
-      "OuterIndex": -293,
+      "OuterIndex": -295,
       "ClassPackage": "/Script/MotorTown",
       "ClassName": "MHWheelComponent",
       "PackageName": null,
@@ -9351,7 +9429,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "Wheel3",
-      "OuterIndex": -293,
+      "OuterIndex": -295,
       "ClassPackage": "/Script/MotorTown",
       "ClassName": "MHWheelComponent",
       "PackageName": null,
@@ -9360,7 +9438,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "Wheel0",
-      "OuterIndex": -294,
+      "OuterIndex": -296,
       "ClassPackage": "/Script/MotorTown",
       "ClassName": "MHWheelComponent",
       "PackageName": null,
@@ -9369,7 +9447,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "Wheel1",
-      "OuterIndex": -294,
+      "OuterIndex": -296,
       "ClassPackage": "/Script/MotorTown",
       "ClassName": "MHWheelComponent",
       "PackageName": null,
@@ -9378,7 +9456,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "Wheel2",
-      "OuterIndex": -294,
+      "OuterIndex": -296,
       "ClassPackage": "/Script/MotorTown",
       "ClassName": "MHWheelComponent",
       "PackageName": null,
@@ -9387,7 +9465,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "Wheel3",
-      "OuterIndex": -294,
+      "OuterIndex": -296,
       "ClassPackage": "/Script/MotorTown",
       "ClassName": "MHWheelComponent",
       "PackageName": null,
@@ -9459,7 +9537,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "Dashboard",
-      "OuterIndex": -293,
+      "OuterIndex": -295,
       "ClassPackage": "/Script/MotorTown",
       "ClassName": "MTDashboard",
       "PackageName": null,
@@ -9468,7 +9546,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "Dashboard",
-      "OuterIndex": -294,
+      "OuterIndex": -296,
       "ClassPackage": "/Script/MotorTown",
       "ClassName": "MTDashboard",
       "PackageName": null,
@@ -9549,7 +9627,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "Engine",
-      "OuterIndex": -293,
+      "OuterIndex": -295,
       "ClassPackage": "/Script/MotorTown",
       "ClassName": "MTEngineComponent",
       "PackageName": null,
@@ -9558,7 +9636,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "Engine",
-      "OuterIndex": -294,
+      "OuterIndex": -296,
       "ClassPackage": "/Script/MotorTown",
       "ClassName": "MTEngineComponent",
       "PackageName": null,
@@ -9702,7 +9780,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "DriverSeatInteractable",
-      "OuterIndex": -293,
+      "OuterIndex": -295,
       "ClassPackage": "/Script/MotorTown",
       "ClassName": "MTInteractableComponent",
       "PackageName": null,
@@ -9711,7 +9789,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "PassengerSeatInteractable",
-      "OuterIndex": -293,
+      "OuterIndex": -295,
       "ClassPackage": "/Script/MotorTown",
       "ClassName": "MTInteractableComponent",
       "PackageName": null,
@@ -9720,7 +9798,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "DriverSeatInteractable",
-      "OuterIndex": -294,
+      "OuterIndex": -296,
       "ClassPackage": "/Script/MotorTown",
       "ClassName": "MTInteractableComponent",
       "PackageName": null,
@@ -9729,7 +9807,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "PassengerSeatInteractable",
-      "OuterIndex": -294,
+      "OuterIndex": -296,
       "ClassPackage": "/Script/MotorTown",
       "ClassName": "MTInteractableComponent",
       "PackageName": null,
@@ -9882,7 +9960,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "CameraSpringArm",
-      "OuterIndex": -293,
+      "OuterIndex": -295,
       "ClassPackage": "/Script/MotorTown",
       "ClassName": "MTSpringArmComponent",
       "PackageName": null,
@@ -9891,7 +9969,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "CameraSpringArm",
-      "OuterIndex": -294,
+      "OuterIndex": -296,
       "ClassPackage": "/Script/MotorTown",
       "ClassName": "MTSpringArmComponent",
       "PackageName": null,
@@ -10143,7 +10221,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "NavModifierComponent",
-      "OuterIndex": -293,
+      "OuterIndex": -295,
       "ClassPackage": "/Script/MotorTown",
       "ClassName": "MTVehicleNavModifierComponent",
       "PackageName": null,
@@ -10152,7 +10230,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "NavModifierComponent",
-      "OuterIndex": -294,
+      "OuterIndex": -296,
       "ClassPackage": "/Script/MotorTown",
       "ClassName": "MTVehicleNavModifierComponent",
       "PackageName": null,
@@ -10224,7 +10302,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "Body",
-      "OuterIndex": -293,
+      "OuterIndex": -295,
       "ClassPackage": "/Script/MotorTown",
       "ClassName": "MTVehicleRootComponent",
       "PackageName": null,
@@ -10233,7 +10311,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "Body",
-      "OuterIndex": -294,
+      "OuterIndex": -296,
       "ClassPackage": "/Script/MotorTown",
       "ClassName": "MTVehicleRootComponent",
       "PackageName": null,
@@ -10692,7 +10770,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "DriverSeatInteractionSphere",
-      "OuterIndex": -293,
+      "OuterIndex": -295,
       "ClassPackage": "/Script/Engine",
       "ClassName": "SphereComponent",
       "PackageName": null,
@@ -10701,7 +10779,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "PassengerSeatInteractionSphere",
-      "OuterIndex": -293,
+      "OuterIndex": -295,
       "ClassPackage": "/Script/Engine",
       "ClassName": "SphereComponent",
       "PackageName": null,
@@ -10710,7 +10788,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "DriverSeatInteractionSphere",
-      "OuterIndex": -294,
+      "OuterIndex": -296,
       "ClassPackage": "/Script/Engine",
       "ClassName": "SphereComponent",
       "PackageName": null,
@@ -10719,7 +10797,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "PassengerSeatInteractionSphere",
-      "OuterIndex": -294,
+      "OuterIndex": -296,
       "ClassPackage": "/Script/Engine",
       "ClassName": "SphereComponent",
       "PackageName": null,
@@ -10772,6 +10850,15 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "5thWheelNeckBase_GEN_VARIABLE",
+      "OuterIndex": -20,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "StaticMeshComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "Body_6_GEN_VARIABLE",
       "OuterIndex": -20,
       "ClassPackage": "/Script/Engine",
@@ -10801,6 +10888,15 @@
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "SteeringWheel",
       "OuterIndex": -48,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "StaticMeshComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "5thWheelNeckBase_GEN_VARIABLE",
+      "OuterIndex": -21,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StaticMeshComponent",
       "PackageName": null,
@@ -10854,7 +10950,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "Mesh",
-      "OuterIndex": -293,
+      "OuterIndex": -295,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StaticMeshComponent",
       "PackageName": null,
@@ -10863,7 +10959,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "SteeringWheel",
-      "OuterIndex": -293,
+      "OuterIndex": -295,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StaticMeshComponent",
       "PackageName": null,
@@ -10899,7 +10995,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "Mesh",
-      "OuterIndex": -294,
+      "OuterIndex": -296,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StaticMeshComponent",
       "PackageName": null,
@@ -10908,7 +11004,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "SteeringWheel",
-      "OuterIndex": -294,
+      "OuterIndex": -296,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StaticMeshComponent",
       "PackageName": null,
@@ -11116,10 +11212,10 @@
     {
       "$type": "UAssetAPI.FGenerationInfo, UAssetAPI",
       "ExportCount": 1,
-      "NameCount": 274
+      "NameCount": 277
     }
   ],
-  "PackageGuid": "{D1997153-4572-CEDF-CE06-6FA0AA821322}",
+  "PackageGuid": "{7253EF2E-4091-8FB3-9541-AAB1FF579B62}",
   "PersistentGuid": "{00000000-0000-0000-0000-000000000000}",
   "RecordedEngineVersion": {
     "$type": "UAssetAPI.FEngineVersion, UAssetAPI",
@@ -11142,13 +11238,13 @@
   "FolderName": "/Game/DataAsset/Vehicles/Vehicles_Special",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
-  "SoftObjectPathsOffset": 8857,
+  "SoftObjectPathsOffset": 8954,
   "SearchableNamesOffset": 0,
   "ThumbnailTableOffset": 0,
   "SavedHash": null,
   "CompressionFlags": 0,
   "AdditionalPackagesToCook": [],
-  "NamesReferencedFromExportDataCount": 112,
+  "NamesReferencedFromExportDataCount": 115,
   "PayloadTocOffset": -1,
   "DataResourceOffset": -1,
   "doWeHaveAssetRegistryData": true,

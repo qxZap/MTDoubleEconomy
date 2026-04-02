@@ -5093,7 +5093,7 @@
                                     "IsZero": false,
                                     "PropertyTagFlags": "None",
                                     "PropertyTagExtensions": "NoExtension",
-                                    "Value": 40
+                                    "Value": 100
                                 },
                                 {
                                     "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
@@ -5120,7 +5120,7 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": 200
+                    "Value": 500
                 },
                 {
                     "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",

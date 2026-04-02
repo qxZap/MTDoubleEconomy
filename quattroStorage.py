@@ -3,7 +3,7 @@ import shutil
 import subprocess
 import json
 
-BOOST = 4
+BOOST = 10
 
 def modifyDeliveryPoint(data):
     exports = data.get('Exports')
@@ -21,7 +21,6 @@ def modifyDeliveryPoint(data):
                         for line in storage_config["Value"]:
                             if line["Name"] == 'MaxStorage':
                                 line["Value"] = line["Value"] * BOOST
-            # TODO: fix MaxStorage from StorageConfig
     return data
 
 # Paths
@@ -48,7 +47,7 @@ for uasset in uassets:
         input_path,
         output_json,
         'VER_UE5_5',
-        'MotorTown718'
+        'MotorTown718T9'
     ]
 
     subprocess.run(command, check=True)
