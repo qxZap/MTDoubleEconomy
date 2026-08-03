@@ -8,7 +8,10 @@ set LOG_FILE=quattro_failed.log
 REM Clear previous log
 if exist "%LOG_FILE%" del "%LOG_FILE%"
 
-echo Converting JSON to UASSET...
+REM quattroStorage.py now builds the assets itself, with the same mappings it
+REM read them with. This only picks up JSON left behind by a failure, so you can
+REM fix one by hand and convert it without re-running everything.
+echo Converting leftover JSON to UASSET...
 
 for %%F in (%DELIVERY_DIR%\*.json) do (
     set BASENAME=%%~nF
@@ -16,7 +19,7 @@ for %%F in (%DELIVERY_DIR%\*.json) do (
 
     for /L %%A in (1,1,1) do (
         if !SUCCESS! EQU 0 (
-            UAssetGUI.exe fromjson "%%F" "%DELIVERY_DIR%\!BASENAME!.uasset" MotorTown718
+            "D:\MT\UAssetGUI.exe" fromjson "%%F" "%DELIVERY_DIR%\!BASENAME!.uasset" MotorTown719
 
             if exist "%DELIVERY_DIR%\!BASENAME!.uasset" (
                 set SUCCESS=1

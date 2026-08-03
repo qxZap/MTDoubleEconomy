@@ -2,7 +2,7 @@ import copy
 import json
 import os
 
-RATIO = 0.5
+RATIO = 1
 # RATIO = 1
 VANILLA_GAP = 91
 FLAG_OVERSIZED = 67
